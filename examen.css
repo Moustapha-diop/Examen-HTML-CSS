@@ -302,3 +302,79 @@ margin-top: 5px;
 }
 
 
+@media screen and (max-width:450px){
+    .bottome2{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .top1{
+        background-color: rgb(0, 179, 255);
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+    }
+
+    .left-top1 img{
+        height: 30px;
+        width: 30px;
+        margin-left: 0;
+    }
+
+    .right-top1{
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+        
+        font-size: 6px;
+        color: white;
+    }
+
+    .bottome1{
+        background-image: url(image-montagne.jpeg);
+        background-attachment: scroll;
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 200px;
+        padding: 10px;
+    }
+
+    .milieu1{
+        display: flex;
+        flex-direction: row;
+        gap: 3px;
+        border-radius: 20px;
+        background-color: white;
+        padding: 0px;
+        padding-left: 0px;
+        width: 100%;
+        margin: 0px;
+    }
+
+    .milieu1 p{
+        font-size: 4px;
+        color: rgb(42, 59, 66);
+    }
+    
+    .milieu  p span{
+        font: 10px;
+        color: rgb(0, 179, 255);
+    }
+    
+    .milieu1 input{
+        background-color: rgb(0, 179, 255);
+        color: white;
+        border: 1px solid rgb(0, 179, 255);
+        border-radius: 30px;
+        font-size: 3px;
+        opacity: 1;
+        margin-top: -20px;
+    }
+    
+    .milieu1 img{
+        height: 15px;
+        width: 15px;
+    }
+
+
+}
